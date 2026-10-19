@@ -62,31 +62,31 @@
 
 // 課題
 
-const changeBtn = document.getElementById('btn-light');
-const changeBtn1 = document.getElementById('btn-dark');
-const changeBtn2 = document.getElementById('btn-cool');
-const mainTitle = document.getElementById('theme-title');
+// const changeBtn = document.getElementById('btn-light');
+// const changeBtn1 = document.getElementById('btn-dark');
+// const changeBtn2 = document.getElementById('btn-cool');
+// const mainTitle = document.getElementById('theme-title');
 
 
 
-changeBtn.addEventListener('click', () => {
-    mainTitle.textContent = '今のテーマ：ライトモード！';
-    mainTitle.style.color = '#000';
-    document.body.style.backgroundColor = `#e67e11`;
-});
+// changeBtn.addEventListener('click', () => {
+//     mainTitle.textContent = '今のテーマ：ライトモード！';
+//     mainTitle.style.color = '#000';
+//     document.body.style.backgroundColor = `#e67e11`;
+// });
 
 
-changeBtn1.addEventListener('click', () => {
-    mainTitle.textContent = '今のテーマ：ダークモード！';
-    mainTitle.style.color = '#909090';
-    document.body.style.backgroundColor = `#900900`;
-});
+// changeBtn1.addEventListener('click', () => {
+//     mainTitle.textContent = '今のテーマ：ダークモード！';
+//     mainTitle.style.color = '#909090';
+//     document.body.style.backgroundColor = `#900900`;
+// });
 
 
 
 
-changeBtn2.addEventListener('click', () => {
-    mainTitle.textContent = '今のテーマ：クールモード！';
-    mainTitle.style.color = '#549000';
-    document.body.style.backgroundColor = `#e34587`;
-});
+// changeBtn2.addEventListener('click', () => {
+//     mainTitle.textContent = '今のテーマ：クールモード！';
+//     mainTitle.style.color = '#549000';
+//     document.body.style.backgroundColor = `#e34587`;
+// });
